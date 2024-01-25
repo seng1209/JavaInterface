@@ -1,5 +1,6 @@
 
 import Format.Rectangle;
+import Format.Square;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,5 +13,14 @@ public class Main {
         System.out.println("Rectangle Perimeter is : "+perimeter);
         double diagonal = rectangle.Diagonal();
         System.out.println("Rectangle Diagonal is : "+diagonal);
+
+        Square square = new Square();
+        square.setSize(5);
+        area = square.Area();
+        System.out.println("Square Area is : "+area);
+        perimeter = square.Perimeter();
+        System.out.println("Square Perimeter is : "+perimeter);
+        diagonal = square.Diagonal();
+        System.out.println("Square Diagonal is : "+diagonal);
     }
 }
