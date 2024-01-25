@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Interface!");
-=======
+
 import Format.Rectangle;
 
 public class Main {
@@ -16,6 +12,5 @@ public class Main {
         System.out.println("Rectangle Perimeter is : "+perimeter);
         double diagonal = rectangle.Diagonal();
         System.out.println("Rectangle Diagonal is : "+diagonal);
->>>>>>> 1a7c27b (Initial commit)
     }
 }
